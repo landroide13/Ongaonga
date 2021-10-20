@@ -11,18 +11,6 @@ M.Slider.init(slider, {
   interval: 6000
 });
 
-//Autocomplete
-const ac = document.querySelector('.autocomplete');
-M.Autocomplete.init(ac, {
-  data:{
-    'Aruba': null,
-    'Cancun': null,
-    'Bahia': null,
-    'Hawaii': null,
-    'Florida': null,
-    'Sao Paulo': null,
-  }
-})
 
 //Gallery
 

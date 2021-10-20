@@ -67,21 +67,6 @@
       </ul>
   </section>
 
-  <!-- Section Search-->
-
-  <!-- <section id="search" class="section section-search teal darken-1 white-text center scrollspy">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <h3>Search Destinations</h3>
-          <div class="input-field">
-            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Aruba, Cancun, etc">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <!-- Section Icon Boxes -->
 
   <section class="section section-icons grey lighten-4 center">
@@ -90,25 +75,22 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="card-panel">
-            <i class="material-icons large teal-text"></i>
-            <h4>Aruba Room</h4>
-            <p>2 nights for NZ 300</p>
+            <h5 class="title">Aruba Room</h5>
+            <p>2 Nights for NZ 300</p>
             <a class="waves-effect waves-light btn">Book Now</a>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="card-panel">
-            <i class="material-icons large teal-text"></i>
-            <h4>Bahamas Room</h4>
+            <h5 class="title">Bahamas Room</h5>
             <p>Weekends for NZ 450 per night</p>
             <a class="waves-effect waves-light btn">Book Now</a>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="card-panel">
-            <i class="material-icons large teal-text"></i>
-            <h4>Bahia Room</h4>
-            <p>3 nights for NZ 350</p>
+            <h5 class="title">Bahia Room</h5>
+            <p>3 Nights for NZ 350</p>
             <a class="waves-effect waves-light btn">Book Now</a>
           </div>
         </div>
@@ -298,15 +280,18 @@
               <input type="text" placeholder="Name">
             </div>
             <div class="input-field">
-              <input type="text" placeholder="Email">
+              <input type="email" placeholder="Email" required minlength="7">
             </div>
             <div class="input-field">
-              <input type="text" placeholder="Phone">
+              <input type="number" placeholder="Phone" minlength="9" maxlength="9">
             </div>
             <div class="input-field">
-              <textarea class="materialize-textarea"  placeholder="Message"></textarea>
+              <textarea class="materialize-textarea"  placeholder="Message" required></textarea>
             </div>
-            <input type="submit" value="Submit" class="btn">
+            <button type="submit" value="Submit" class="btn waves-effect waves-light" >
+              Send<i class="material-icons right">send</i>
+            </button>
+
           </div>
         </div>
       </div>
